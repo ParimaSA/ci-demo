@@ -1,3 +1,4 @@
+"""Provides module for statistics functions."""
 from math import sqrt
 
 
@@ -43,5 +44,5 @@ def variance(data):
 
 
 def stdev(data):
-    """Return the standard deviation of a list of values"""
+    """Return the standard deviation of a list of values."""
     return sqrt(variance(data))
