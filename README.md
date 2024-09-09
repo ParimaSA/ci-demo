@@ -1,5 +1,7 @@
 Continuous Integration Demo
 ===========================
+![Unit Tests](../../actions/workflows/python-unittest.yml/badge.svg)
+
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
