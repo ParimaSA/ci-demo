@@ -19,6 +19,7 @@ class StatisticsTest(TestCase):
         self.assertAlmostEqual(8.0, variance([0.1, 4.1, 4.1, 8.1]))
 
     def test_stdev(self):
+        """standard variation should work"""
         # standard deviation of a single value should be zero
         self.assertEqual(0.0, stdev([10.0]))
         # simple test
