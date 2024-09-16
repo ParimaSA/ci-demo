@@ -12,8 +12,6 @@ def average(data):
 def variance(data):
     """Return the variance of a list of numeric values in data.
 
-    The population variance of a list of numbers in data.
-
     The variance is the sum of squared differences between data values
     and their mean, divided by the number of items in the list.
     This is different from the Python library function statistics.variance
