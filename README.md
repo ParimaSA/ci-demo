@@ -1,7 +1,7 @@
 Continuous Integration Demo
 ===========================
-![Unit Tests](../../actions/workflows/python-unittest.yml/badge.svg)
-![Unit Tests](../../actions/workflows/run-flake8.yml/badge.svg)
+[![Flake8](https://github.com/ParimaSA/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/ParimaSA/ci-demo/actions/workflows/run-flake8.yml)
+[![Run Unit Tests](https://github.com/ParimaSA/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/ParimaSA/ci-demo/actions/workflows/python-unittest.yml)
 
 
 This project demonstrates use of Github Actions to build and test a Python project.  
